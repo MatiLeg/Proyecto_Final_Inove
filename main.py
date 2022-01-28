@@ -33,7 +33,7 @@ def autenticacion():
 def agregar_usuario():
 
     header = ["user"]
-    csvfile = open('usuarios.csv', 'a')
+    csvfile = open('usuarios.csv', 'a', newline="")
     writer = csv.DictWriter(csvfile, fieldnames=header)
 
     usuario_nuevo = input("Usuario nuevo: ")
@@ -54,7 +54,7 @@ def reporte_pedidos():
 def agregar_pedido(usuario):
 
     header = ["user", "pedido"]
-    csvfile = open('pedidos.csv', 'a')
+    csvfile = open('pedidos.csv', 'a', newline="")
     writer = csv.DictWriter(csvfile, fieldnames=header)
 
     pedido = input("Pedido: ")
