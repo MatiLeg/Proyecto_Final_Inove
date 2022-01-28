@@ -1,19 +1,4 @@
-![Inove banner](/inove.jpg)
-Inove Escuela de Código\
-info@inove.com.ar\
-Web: [Inove](http://inove.com.ar)
+# Sistema de solicitud de viandas - Proyecto Final "Python Inicial"
+La finalidad del sistema es registrar los pedidos de viandas de los empleados de una empresa. Los usuarios podrán realizar su pedidos y el administrador podrá dar de alta usuarios y consultar el costo total de todos los pedidos.
 
-# Tipos de variables! [Python]
-En este repositorio encontrarán las siguientes carpetas:
-
-__Ejemplos que el profesor mostrará en clase__\
-ejemplos_clase/
-
-__Ejercicios para que el alumno desarrolle lo visto en clase__\
-ejercicios_practica/
-
-__Ejercicios para que el alumno profundice sobre el tema durante la semana__\
-ejercicios_profundizacion/
-
-# Consultas
-alumnos@inove.com.ar
+Para el proyecto se utilizan dos archivos .CSV para el almacenamiento de la lista de usuarios y pedidos.
